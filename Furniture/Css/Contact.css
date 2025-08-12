@@ -1,0 +1,134 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+/*  */
+
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+}
+
+/* Navbar links */
+.navbar .nav-link {
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link.active {
+  color: #d89c7a;
+  font-weight: 500;
+}
+.navbar .nav-link:hover {
+  color: #d89c7a !important;
+}
+/* Search */
+.search-container {
+  background: #d89c7a;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.search-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  padding-right: 5px;
+}
+.search-input::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+.search-icon {
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+/* Icons */
+.fas {
+  font-size: 20px;
+  cursor: pointer;
+}
+/*  */
+.hero-section {
+  position: relative;
+  background: url("../Images/Image29.jpg") no-repeat center center;
+  background-size: 120%; 
+  background-position: center 30%;
+  height: 80vh;
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+/*  */
+.bg-brown {
+  background-color: #d89c7a; 
+}
+
+/*  */
+.footer-section{
+    position: relative;
+  background: url("../Images/Image40.jpg") no-repeat center center;
+  background-size: 120%; 
+  background-position: center 30%;
+  height: 80vh;
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+/*  */
+.btn{
+    background-color: #d89c7a; 
+}
+/*  */
+
+.footer {
+  padding: 40px 0;
+}
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: black;
+}
+.footer a {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.footer a:hover {
+  color: black;
+}
+.footer-logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+.footer-logo h5 {
+  font-weight: 700;
+  margin: 0;
+}
+.footer-logo p {
+  margin: 0;
+  font-size: 14px;
+  color: black;
+}
+.social-icons a {
+  margin-right: 15px;
+}
+.social-icons img {
+  height: 28px;
+  width: 28px;
+}
+/*  */
+.custom-input {
+  height: 60px;               
+  width: 300px;              
+  font-size: 1.2rem;          
+  padding-left: 15px;         
+}
